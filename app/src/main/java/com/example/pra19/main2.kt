@@ -24,7 +24,7 @@ class main2 : AppCompatActivity() {
     }
 
     fun hh(view: View) {
-        Snackbar.make(view,"Кнопка первая",Snackbar.LENGTH_LONG).show()
+        Snackbar.make(view,"Тыкнул меня, красава",Snackbar.LENGTH_LONG).show()
     }
 
     fun cl(view: View) {
@@ -37,7 +37,7 @@ class main2 : AppCompatActivity() {
       /*  val timeFormat: DateFormat = SimpleDateFormat("HH:mm:ss", Locale.getDefault())
         val timeText: String = timeFormat.format(currentDate)*/
         bb=findViewById(R.id.crime_date)
-        bb.setText(dateText);
+        bb.setText(dateText + " вот такой сегодня день");
 
     }
 }
